@@ -1,20 +1,39 @@
 ---
-layout: layouts/home.njk
-title: Home
-date: 2016-01-01T00:00:00.000Z
+title: Wayne Thursby - The Website
+date: 2019-03-20T21:00:00.000Z
 permalink: /
 navtitle: Home
 tags:
   - nav
 ---
-# Welcome
+Here you are. But should you have come?
 
-This is a template for building a simple blog website with the [Eleventy static site generator](https://www.11ty.io), with deployment to [Netlify](https://www.netlify.com).
+## This site might entertain or inform you
+It's impossible to know which, really, and so I will only warn you that either or both of these things may occur.
 
-Includes [Netlify CMS](https://www.netlifycms.org) for WYSIWYG content editing, and [Netlify Forms](https://www.netlify.com/docs/form-handling) for processing your site's form data.
+At this point you should know:
 
-For more info on installation and usage, view the [project repo]({{ pkg.repository.url }}) on Github.
+- I don't really know what I'm doing here
+- Neither do you
+- That's okay
 
-Or click the button below to deploy your own copy of this project to Netlify.
+We will just move along as if these words have reason for existence.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/danurbanowicz/eleventy-netlify-boilerplate&stack=cms)
+## Post pages
+
+The pages found in in the posts
+
+<ul class="listing">
+{%- for page in collections.post -%}
+  <li>
+    <a href="{{ page.url }}">{{ page.data.title }}</a> -
+    <time datetime="{{ page.date }}">{{ page.date | dateDisplay("LLL d, y") }}</time>
+  </li>
+{%- endfor -%}
+</ul>
+
+## My other projects
+
+These are some other things I am working on. Okay just one for now.
+
+ - [CØASTLINE](https://coastline941.com) - A website I created for a the super rad Pop Punk band I'm in.
