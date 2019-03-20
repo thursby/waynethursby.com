@@ -1,9 +1,9 @@
 ---
-layout: layouts/blog.njk
 title: Blog
+date: 2019-03-21T00:00:00.000Z
+permalink: /blog/index.html
+navtitle: Blog
 tags:
   - nav
-navtitle: Blog
-date: 2017-01-01
-permalink: /blog/index.html
 ---
+ 
