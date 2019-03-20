@@ -1,9 +1,9 @@
 {
-  "title": "Eleventy Netlify Boilerplate",
-  "url": "https://eleventy-netlify-boilerplate.netlify.com",
+  "title": "Wayne Thursby - The Website",
+  "url": "https://waynethursby.com",
   "author": {
-    "name": "Dan Urbanowicz",
-    "email": "dan.urbanowicz@gmail.com",
-    "github": "https://github.com/danurbanowicz"
+    "name": "Wayne Thursby",
+    "email": "@wayne_coastline",
+    "github": "https://github.com/thursby"
   }
 }

@@ -1,7 +1,9 @@
 :root {
-	--turkey: #FFF0EB;
-	--white: white;
-	--blue: blue;
+	--turkey: #0C1824;
+	--white: #D9CEC6;
+	--blue: #64c6ff;
+	--darkblue: #334A5A;
+	--grey: #BDAE99
 }
 
 *, *:before, *:after {
@@ -12,10 +14,12 @@ html,
 body {
 	padding: 0;
 	margin: 0;
-	font-family: "Avenir", "Avenir Next", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+/* System Fonts as used by Medium and WordPress */
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 }
 
 body {
+	color: #EEE;
 	display: grid;
 	height: 100vh;
 	grid-template-rows: auto 1fr auto;
@@ -73,18 +77,22 @@ pre {
 	margin: .5em 0;
 }
 
-ul {
+nav ul {
 	padding: 0;
 	list-style: none;
 }
 
 /* Header Logo (style as h2) */
-header > em {
+#titlelink {
 	display: block;
-	font-size: 2em;
+	font-size: 3em;
 	margin: .67em 0;
-	font-weight: bold;
 	font-style: normal;
+}
+
+/* Other Headers */
+h1 {
+	font-weight: normal;
 }
 
 /* Header Nav */
@@ -130,8 +138,8 @@ a[rel="tag"]:visited {
   padding: 0 .5em;
 	line-height: 2em;
 	height: 2em;
-  border: 1px solid var(--white);
-	background-color: var(--white);
+	border: 1px solid var(--grey);
+	background-color: var(--darkblue);
 	color: var(--blue);
   border-radius: .25em;
   text-decoration: none;
