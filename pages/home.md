@@ -1,5 +1,5 @@
 ---
-title: Wayne Thursby - The Website
+title: This is ostensibly the home page.
 date: 2019-03-20T21:00:00.000Z
 permalink: /
 navtitle: Home
@@ -13,9 +13,9 @@ It's impossible to know which, really, and so I will only warn you that either o
 
 At this point you should know:
 
-- I don't really know what I'm doing here
-- Neither do you
-- That's okay
+* I don't really know what I'm doing here
+* Neither do you
+* That's okay
 
 We will just move along as if these words have reason for existence.
 
@@ -26,8 +26,8 @@ The pages found in in the posts
 <ul class="listing">
 {%- for page in collections.post -%}
   <li>
-    <a href="{{ page.url }}">{{ page.data.title }}</a> -
-    <time datetime="{{ page.date }}">{{ page.date | dateDisplay("LLL d, y") }}</time>
+    <a href="{{ page.url | url }}">{{ page.data.title }}</a> -
+    <time datetime="{{ page.date }}">{{ page.date | readableDate }}</time>
   </li>
 {%- endfor -%}
 </ul>

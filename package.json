@@ -1,7 +1,7 @@
 {
-  "name": "eleventy-netlify-boilerplate",
+  "name": "waynethursby.com",
   "version": "1.0.1",
-  "description": "A boilerplate for building a fast static website with the Eleventy static site generator, for deployment to Netlify.",
+  "description": "A personal website for waynethursby.com",
   "scripts": {
     "build": "npx eleventy",
     "watch": "npx eleventy --watch",
@@ -9,18 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/danurbanowicz/eleventy-netlify-boilerplate"
+    "url": "https://github.com/thursby/waynethursby.com"
   },
   "author": {
-    "name": "Dan Urbanowicz",
-    "email": "dan.urbanowicz@gmail.com",
-    "url": "https://www.danurbanowicz.com/"
+    "name": "Wayne Thursby",
+    "email": "@wayne_coastline",
+    "url": "https://waynethursby.com"
   },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/danurbanowicz/eleventy-netlify-boilerplate/issues"
-  },
-  "homepage": "https://github.com/danurbanowicz/eleventy-netlify-boilerplate",
+  "homepage": "https://waynethursby.com",
   "devDependencies": {
     "@11ty/eleventy": "^0.7.1",
     "luxon": "^1.11.0",
