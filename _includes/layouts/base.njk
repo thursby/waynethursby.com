@@ -1,21 +1,29 @@
 <!doctype html>
-<html {% if section %} data-current="{{ section }}"{% endif %} lang="en">
+<html {% if section %} data-current="{{ section }}" {% endif %} lang="en">
 
-	{% include "components/head.njk" %}
+{% include "components/head.njk" %}
 
-	<body>
-
-		<header>
-			<a id="titlelink" href="{{ '/' | url }}">{{ metadata.title }}</a>
+<body>
+	<div id="wrapper">
+		<div id="left-col">
+			<div id="page-title">
+				<a id="titlelink" href="{{ '/' | url }}">
+					<h1>Wayne<br />Thursby<br />the<br />website</h1>
+				</a>
+			</div>
 			{% include "components/nav.njk" %}
-		</header>
+		</div>
 
-		<main>
+
+		<div id="right-col">
+			<div id="hot-spot">
+				<p>Here you <br />are, but <br />should you <br />have come?</p>
+			</div>
 			{{ layoutContent | safe }}
-		</main>
+		</div>
 
 		{% include "components/footer.njk" %}
 
-	</body>
+</body>
 
 </html>

@@ -1,15 +1,16 @@
 ---
-title: This is ostensibly the home page.
+title: Ostensibly the home page
 date: 2019-03-20T21:00:00.000Z
 permalink: /
 navtitle: Home
 tags:
   - nav
 ---
-Here you are. But should you have come?
-
-## This site might entertain or inform you
-It's impossible to know which, really, and so I will only warn you that either or both of these things may occur.
+## You are on a website.
+You have been warned. Now that we have that out of the way, I must warn you that 
+this particular website may entertain, inform, delight, or annoy you. It's really
+not possible to know which at this point, and so I find it only fair to warn you
+that one or more of these these things may occur.
 
 At this point you should know:
 
@@ -19,15 +20,15 @@ At this point you should know:
 
 We will just move along as if these words have reason for existence.
 
-## Post pages
+## Posts from the frontlines
 
-The pages found in in the posts
+These are things which compelled me to put the pen to the old proverbial for whatever reason.
 
 <ul class="listing">
 {%- for page in collections.post -%}
   <li>
-    <a href="{{ page.url | url }}">{{ page.data.title }}</a> -
-    <time datetime="{{ page.date }}">{{ page.date | readableDate }}</time>
+    <time datetime="{{ page.date }}">{{ page.date | readableDate }}</time> - 
+    <a class="listing" href="{{ page.url | url }}">{{ page.data.title }}</a>
   </li>
 {%- endfor -%}
 </ul>
