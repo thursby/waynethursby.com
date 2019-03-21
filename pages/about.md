@@ -6,7 +6,8 @@ navtitle: About
 tags:
   - nav
 ---
-## Me
-I am Wayne Thursby, allegedly. I like dogs, Oxford commas, and long walks on the bass guitar.
+I am [Wayne Thursby](#), allegedly.
+
+I like dogs, Oxford commas, and long walks on the bass guitar.
 
 The musings contained on this particular page belong to no entity in particular. They only vaguely represent my own views, much less anyone elses.
