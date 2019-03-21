@@ -7,8 +7,7 @@ tags:
   - nav
 ---
 ## You are on a website.
-You have been warned. Now that we have that out of the way, I must warn you that
-this particular website may entertain, inform, delight, or annoy you. It's really not possible to know which at this point, and so I find it only fair to warn you that one or more of these these things may occur.
+You have been warned. Now that we have that out of the way, I must warn you that this particular website may entertain, inform, delight, or annoy you. It's really not possible to know which at this point, and so I find it only fair to warn you that one or more of these these things may occur.
 
 At this point you should know:
 
