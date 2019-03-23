@@ -112,7 +112,7 @@ article h3, article h3 a {
 	margin-left: 0.3125rem;
 	float: right;
 	border-top: var(--bright) 1.25rem solid;
-	transition-duration:  1s;
+	transition-duration:  .5s;
 }
 
 #right-col #hot-spot {
