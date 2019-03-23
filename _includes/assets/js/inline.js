@@ -27,7 +27,7 @@ function positionColumns(scroll_pos) {
       // rightCol.style.margin = "1rem";
       console.log(window.innerWidth, leftColWidth, rightColWidth)
 
-    } else {
+    } else if (scroll_pos == 0) {
       rightCol.classList.remove("right-col-smaller");
       leftCol.classList.remove("left-col-smaller");
       if (window.innerWidth >= 600) {
