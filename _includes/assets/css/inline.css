@@ -42,12 +42,24 @@ h2 {
 	margin: .2rem;
 }
 
+
 h3, h3 a {
 	font-size: 2rem;
 	font-weight: bold;
 	color: var(--hilite);
 	margin: .2rem;
 }
+
+
+article h3, article h3 a {
+	font-size: 2rem;
+	font-weight: bold;
+	color: var(--hilite);
+	margin: .2rem;
+	text-decoration: underline var(--bright);
+}
+
+
 
 #wrapper {
 	float: left;
