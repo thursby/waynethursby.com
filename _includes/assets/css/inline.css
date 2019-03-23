@@ -70,7 +70,7 @@ article h3, article h3 a {
 #left-col {
 	width: 35%;
 	float: left;
-	transition-duration: 1s;
+	transition-duration: .5s;
 }
 
 .left-col-smaller {
@@ -79,7 +79,7 @@ article h3, article h3 a {
 }
 
 .right-col-smaller {
-  margin-right: 25%;
+  margin-right: 1rem;
 }
 
 
