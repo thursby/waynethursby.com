@@ -70,7 +70,18 @@ article h3, article h3 a {
 #left-col {
 	width: 35%;
 	float: left;
+	transition-duration: 1s;
 }
+
+.left-col-smaller {
+	width: 13rem !important;
+	position: fixed !important;
+}
+
+.right-col-smaller {
+  margin-right: 25%;
+}
+
 
 #left-col #page-title {
 	width: 100%;
@@ -101,6 +112,7 @@ article h3, article h3 a {
 	margin-left: 0.3125rem;
 	float: right;
 	border-top: var(--bright) 1.25rem solid;
+	transition-duration:  1s;
 }
 
 #right-col #hot-spot {
@@ -204,4 +216,33 @@ button {
 	background-color: var(--bright);
 	color: var(--hilite);
 	cursor: pointer;
+}
+
+/* Responsive mode */
+@media screen and (max-width: 600px) {
+ 
+	#wrapper, #left-col, #left-col #page-title,
+	#left-col #main-menu,
+	#right-col, #right-col #hot-spot,
+	#rodape_container, #rodape {
+	float: none !important;
+	}
+	
+  #left-col, #right-col {
+		width: 100%;
+	}
+	
+	#page-title {
+		padding-top: 1em !important;
+		transition: 1s;
+	}
+
+	.article, .aside {
+	width: 100%;
+	}
+	
+	#main-menu li {
+		display: inline-block;
+	}
+ 
 }
