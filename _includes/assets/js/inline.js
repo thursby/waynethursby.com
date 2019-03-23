@@ -9,18 +9,31 @@ if (window.netlifyIdentity) {
 }
 
 
+function convertRemToPixels(rem) {    
+    return rem * parseFloat(getComputedStyle(document.documentElement).fontSize);
+}
+
 function positionColumns(scroll_pos) {
-  if (window.innerWidth >= 600) {
     var leftCol = document.getElementById("left-col");
     var rightCol = document.getElementById("right-col");
-    if (scroll_pos >= 100) {
+    if (window.innerWidth >= 600 && scroll_pos >= 100) {
       leftCol.classList.add("left-col-smaller");
       rightCol.classList.add("right-col-smaller");
+      // var leftColWidth = leftCol.offsetWidth;
+      var leftColWidth = convertRemToPixels(13);
+      var rightColMargin = convertRemToPixels(4);
+      var rightColWidth = window.innerWidth - leftColWidth - rightColMargin;
+      rightCol.style.width = rightColWidth + "px";
+      // rightCol.style.margin = "1rem";
+      console.log(window.innerWidth, leftColWidth, rightColWidth)
+
     } else {
       rightCol.classList.remove("right-col-smaller");
       leftCol.classList.remove("left-col-smaller");
+      if (window.innerWidth >= 600) {
+        rightCol.style.width = "60%";
+      }
     }
-  }
 }
 
 
