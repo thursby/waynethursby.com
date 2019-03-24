@@ -218,6 +218,13 @@ button {
 	cursor: pointer;
 }
 
+code {
+	display: block;
+	background-color: rgba(0,0,0,0.2);
+	padding: .5em;
+	margin: .5em;
+}
+
 blockquote {
   background: #f9f9f9;
   border-left: 10px solid #ccc;
@@ -225,6 +232,7 @@ blockquote {
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
 }
+
 blockquote:before {
   color: #ccc;
   content: open-quote;
