@@ -25,8 +25,6 @@ function positionColumns(scroll_pos) {
       var rightColWidth = window.innerWidth - leftColWidth - rightColMargin;
       
       rightCol.style.width = rightColWidth + "px";
-      console.log(window.innerWidth, leftColWidth, rightColWidth)
-
     } else if (scroll_pos == 0) {
       rightCol.classList.remove("right-col-smaller");
       leftCol.classList.remove("left-col-smaller");
