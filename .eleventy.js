@@ -6,6 +6,7 @@ const htmlmin = require("html-minifier");
 module.exports = function(eleventyConfig) {
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
 
+
   // Date formatting (human readable)
   eleventyConfig.addFilter("readableDate", dateObj => {
     var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
