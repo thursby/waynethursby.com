@@ -7,9 +7,9 @@ tags:
   - nav
 ---
 ## You are on a website.
-You have been warned. Now that we have that out of the way, I must warn you that this particular website may entertain, inform, delight, or annoy you. It's really not possible to know which at this point, and so I find it only fair to warn you that one or more of these these things may occur.
+You have been warned. Now that we have that out of the way, I must also warn you that this particular website may entertain, inform, delight, or annoy you. It's really not possible to know which at this point, and so I find it only fair let you know one or more of these these things may occur.
 
-At this point you should know:
+At this point it may be clear that:
 
 * I don't really know what I'm doing here
 * Neither do you
@@ -19,7 +19,7 @@ We will just move along as if these words have reason for existence.
 
 ## Posts from the frontlines
 
-These are things which compelled me to put the pen to the old proverbial for whatever reason.
+These are things which compelled me to put the pen to the  proverbial.
 
 <ul class="listing">
 {%- for page in collections.post reversed limit:5 -%}
