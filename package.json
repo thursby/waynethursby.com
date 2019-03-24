@@ -20,6 +20,7 @@
   "homepage": "https://waynethursby.com",
   "devDependencies": {
     "@11ty/eleventy": "^0.7.1",
+    "eleventy-plugin-typeset": "^1.0.0",
     "luxon": "^1.11.0",
     "markdown-it": "^8.4.1",
     "markdown-it-anchor": "^4.0.0"

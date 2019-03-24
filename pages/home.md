@@ -22,7 +22,7 @@ We will just move along as if these words have reason for existence.
 These are things which compelled me to put the pen to the old proverbial for whatever reason.
 
 <ul class="listing">
-{%- for page in collections.post -%}
+{%- for page in collections.post reversed limit:5 -%}
   <li>
     <time datetime="{{ page.date }}">{{ page.date | readableDate }}</time> - 
     <a class="listing" href="{{ page.url | url }}">{{ page.data.title }}</a>

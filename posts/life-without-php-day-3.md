@@ -1,6 +1,6 @@
 ---
 title: Life Without PHP Day 3
-date: 2019-03-23T04:35:49.932Z
+date: 2019-03-22T04:35:49.932Z
 summary: >-
   Although the withdrawal effects are minimal, and the trip has been speedy and
   colorful, I can see the silos on the horizon.

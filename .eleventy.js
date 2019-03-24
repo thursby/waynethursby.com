@@ -8,7 +8,8 @@ module.exports = function(eleventyConfig) {
 
   // Date formatting (human readable)
   eleventyConfig.addFilter("readableDate", dateObj => {
-    return DateTime.fromJSDate(dateObj).toFormat("dd LLL yyyy");
+    var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    return dateObj.toLocaleDateString("en-US", options);
   });
 
   // Date formatting (machine readable)
