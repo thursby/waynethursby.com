@@ -20,7 +20,7 @@ Since every WordPress installation is different, there's no way to completely au
 It should go without saying that a backup should be made before doing any of this. While part of the process is to try and ensure everything is backed up, that shouldn't be good enough; make another backup.
 
 Note that all of these scripts assume you're running them from the document root of the WordPress installation.
-<a href="https://gist.githubusercontent.com/thursby/7395ce457ae6b1fbe49fee6d1e41cd20/raw/3c95ab2000bc9ed8c951d6d89ce5452117acf614/wp-backup.sh">wp-backup.sh"</a>
+<a href="https://gist.githubusercontent.com/thursby/7395ce457ae6b1fbe49fee6d1e41cd20/raw/3c95ab2000bc9ed8c951d6d89ce5452117acf614/wp-backup.sh">wp-backup.sh</a>
 
 ```bash
 #!/bin/bash
@@ -134,4 +134,4 @@ do
 done
 ```
 
-And there you have it! This should be a working WordPress installation. Note that we dumped the database but didn't do anything with it. The same database is present. This means that for the small percentage of compromises that persist in the database, more work is necessary to get things back into shape.'
+And there you have it! This should be a working WordPress installation. Note that we dumped the database but didn't do anything with it. The same database is present. This means that for the small percentage of compromises that persist in the database, more work is necessary to get things back into shape.
