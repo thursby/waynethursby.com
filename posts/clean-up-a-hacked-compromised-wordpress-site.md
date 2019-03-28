@@ -1,6 +1,6 @@
 ---
 title: 'Clean Up a Hacked, Compromised WordPress Site'
-date: 2019-03-28T16:30:41.285Z
+date: 2019-03-28T20:30:00.000Z
 summary: >-
   I've developed several scripts to help automate the process of cleaning up a
   hacked, compromised WordPress site.
