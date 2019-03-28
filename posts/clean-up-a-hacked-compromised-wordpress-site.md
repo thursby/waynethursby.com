@@ -7,6 +7,11 @@ summary: >-
 tags:
   - post
 ---
+
+<link rel="stylesheet" href="/_includes/assets/css/prism.css">
+<script src="/_includes/assets/js/prism.js"></script>
+
+
 It happens to the best of us. In spite of our efforts to keep our WordPress instances up-to-date, a plugin or theme falls behind and some miscreant uses that to ruin things.
 
 At that point, it's tempting to just remove the bad stuff and move along. However even if a thorough job is done, and WordPress core matches checksums, it's entirely possible for the attacker to waltz right back in unless the WordPress security keys in **wp-config.php** are updated.
