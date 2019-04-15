@@ -1,9 +1,1 @@
-*.jpg filter=lfs diff=lfs merge=lfs -text
-android-chrome-192x192.png filter=lfs diff=lfs merge=lfs -text
-android-chrome-512x512.png filter=lfs diff=lfs merge=lfs -text
-apple-touch-icon.png filter=lfs diff=lfs merge=lfs -text
-favicon-16x16.png filter=lfs diff=lfs merge=lfs -text
-favicon-32x32.png filter=lfs diff=lfs merge=lfs -text
-*.mp3 filter=lfs diff=lfs merge=lfs -text
-*.mp4 filter=lfs diff=lfs merge=lfs -text
-static/img/** filter=lfs diff=lfs merge=lfs -text
+
