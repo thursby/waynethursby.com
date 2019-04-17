@@ -130,7 +130,7 @@ cp -R $source_dir/uploads wp-content/uploads
 
 find . -name wp-config.php -print | while read line
 do
-    curl http://api.wordpress.org/secret-key/1.1/salt/ &gt; wp_keys.txt
+    curl http://api.wordpress.org/secret-key/1.1/salt/ > wp_keys.txt
     sed -i.bak -e '/put your unique phrase here/d' -e \\
     '/AUTH_KEY/d' -e '/SECURE_AUTH_KEY/d' -e '/LOGGED_IN_KEY/d' -e '/NONCE_KEY/d' -e \\
     '/AUTH_SALT/d' -e '/SECURE_AUTH_SALT/d' -e '/LOGGED_IN_SALT/d' -e '/NONCE_SALT/d' $line
