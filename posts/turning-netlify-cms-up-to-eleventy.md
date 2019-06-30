@@ -7,6 +7,9 @@ summary: >-
 tags:
   - post
 ---
+<link rel="stylesheet" href="/_includes/assets/css/prism.css">
+<script src="/_includes/assets/js/prism.js"></script>
+
 This guide will help you get started using Netlify CMS with Eleventy. This will set up a very basic blog site and is intended as a demonstration of the concepts.
 
 If you just want to get up and running quickly, a vastly superior site can be had in just a few seconds by using the [Eleventy Netlify Boilerplate](https://github.com/danurbanowicz/eleventy-netlify-boilerplate) project. The **Deploy to Netlify** button does what it says, and quite literally couldn't be easier. This guide borrows heavily from that work, but is simplified for illustrative purposes.
