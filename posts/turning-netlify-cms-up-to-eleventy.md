@@ -153,7 +153,7 @@ The NetlifyCMS admin interface is a React app, and therefore may be as a simple 
 </body>
 </html>
 ```
-Now create a `config.yml` that reflects the layout of our files, as well as the fields we want to show from the frontmatter. This can look complex, but if you look closely, you'll see it's actually a fairly simple description of what fields you want to edit.
+Now create a **config.yml** that reflects the layout of our files, as well as the fields we want to show from the frontmatter. This can look complex, but if you look closely, you'll see it's actually a fairly simple description of what fields you want to edit.
 
 #### admin/config.yml
 ```yaml
@@ -209,4 +209,4 @@ To configure this feature. Enable the Netlify identity service and Git Gateway o
 3.  Scroll down to  **Services > Git Gateway**, and click  **Enable Git Gateway**
 4. Accept the defaults and proceed. See the  [Netlify Identity documentation](https://www.netlify.com/docs/identity/) for more info.
 
-Now log in at `/admin/` and create some posts!
+Now log in at **/admin/** and create some posts!
