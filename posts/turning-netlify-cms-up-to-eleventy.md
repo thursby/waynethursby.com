@@ -34,6 +34,7 @@ To keep things simple, we will not be using other basic features of Eleventy to 
 The base layout will be the general HTML structure used by the entire site, and should be as content-agnostic as possible. Typically several includes would be used, but this is a simple example.
 
 #### _includes/layouts/base.njk
+{% raw %}
 ```html
 <!doctype html>
 <html>
@@ -94,6 +95,7 @@ section: post
   <a href="{{ '/blog/' | url }}">← Blog index</a>
 </nav>
 ```
+{% endraw %}
 ### One last thing
 We can't expect our end users to set all of the fields required to publish content. Any fields we want to set for a directory may be specified in a JSON file in each directory.
 #### pages/pages.json
