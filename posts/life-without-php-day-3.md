@@ -24,7 +24,7 @@ In the other direction is innovation, but of course that view is obscured. What 
 
 ## What's missing
 
-One clear omission in [Netlify CMS](https://www.netlifycms.com) is the ability to save drafts. Even if it were manual, it seems like the ability would require a lot more transactions with the underlying repository, further treating it like a transactional database when its intended function is to manage code.
+One clear omission in [Netlify CMS](https://www.netlifycms.org/) is the ability to save drafts. Even if it were manual, it seems like the ability would require a lot more transactions with the underlying repository, further treating it like a transactional database when its intended function is to manage code.
 
 Even if this isn't a real issue for this use case (it probably isn't) it does bring up the fact that eventually you can't save-and-rebuild after every action. It's not practical and not even really required.
 
